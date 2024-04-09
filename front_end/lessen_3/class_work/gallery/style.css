@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #efefef;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+main{
+    width: 70%;
+    padding: 50px;
+    margin: auto;
+    background-color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+
+}
+.photo{
+    width: calc(50% - 40px);
+    height: calc((35vw - 40px) / 16 * 9);
+    margin: 20px;
+    background-color: orange;
+    background-position: center;
+    background-size: cover;
+
+}
+
+h1{
+    width: 100%;
+    text-align: center;
+    font-size: 48px;
+
+}
+.photo1{
+    background-image: url(./img/img1.jpeg);
+}

@@ -1,0 +1,7 @@
+.orange-box{
+    width: 250px;
+    height: 250px;
+    border: 2px solid black;
+    margin: 5px;
+    padding: 10px;
+}
