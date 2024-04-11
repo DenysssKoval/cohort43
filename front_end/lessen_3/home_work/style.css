@@ -1,0 +1,37 @@
+.headline{
+  text-align: center;
+  font-size: 35px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.subheader {
+  font-style: italic;
+  text-align: center;
+  font-size: 25px;
+}
+.intro {
+  background-color: aqua;
+  padding: 30px;
+}
+.main-text {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: lightcoral;
+  margin: 20px;
+}
+.text-more {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: lightcoral;
+  margin: 20px;
+}
+.bald-idea {
+  font-weight: bold;
+  margin: 20px;
+}
+.idea {
+}
+.footer-element {
+}
+#panda{
+  width: 350px;
+}

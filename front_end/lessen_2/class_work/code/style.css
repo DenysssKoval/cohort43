@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: bisque;
+   background-image: url(https://images.hdqwalls.com/download/skull-and-bones-e3-artwork-gu-2880x1800.jpg);
+   background-repeat: no-repeat;
+   background-position: center;
+}
+
+p{
+    color: red;
+}
+p.green{
+    color: green;
+}
+#blue{
+    color: blue;
+}
+.nth{
+ 
+   display: flex;
+   flex-wrap: wrap;
+   gap: 10px;
+}
+.block{
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    border: 2px solid black;
+}
+.nth div:nth-child(even){
+    background-color: blue;
+}
+.nth div:nth-child(odd){
+    background-color: rgb(0, 255, 140);
+}

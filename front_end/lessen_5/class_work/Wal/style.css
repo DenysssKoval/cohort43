@@ -1,0 +1,57 @@
+.bww_logo{
+    width: 28px;
+    height: 28px;
+}
+
+
+.navigation-link{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: 24px;
+    font-family:'Oswald', sans-serif;
+}
+
+a:hover{
+    color: red;
+}
+/* .bww_logo:hover {
+color: red;
+} */
+
+.navigation-menu{
+    display: flex;
+    justify-content: center;
+    gap:25px;
+    align-items:flex-end;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    padding: 5px;
+}
+
+main{
+    background-color: black;
+    text-align: center;
+    height: 200vh;
+}
+body{
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.wal-logo{
+    width: 160px;
+    position: relative;
+    top: 60px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap')
