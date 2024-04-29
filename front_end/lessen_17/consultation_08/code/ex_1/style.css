@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 40px;
+  }
+  
+  .user_card {
+    border: 1px dashed black;
+    border-radius: 10px;
+    padding: 15px;
+    width: 250px;
+  }
+  
+  .user_card img {
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+  }
+  
+  .progress_container {
+    border: 1px solid black;
+    height: 30px;
+    position: relative;
+  }
+  
+  .progress_line {
+    background-color: aquamarine;
+    height: 100%;
+    position: absolute;
+  }
+  
+  .progress_container p {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+  

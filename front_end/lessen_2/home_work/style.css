@@ -1,4 +1,39 @@
 *{margin: 0;
-    padding: 0;}
+	padding: 0;}
 
-h1{text-align: center;}
+h1 {text-align: center; 
+	margin: 30px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 65px;
+}
+
+h3 {
+	margin: 20px 100px;
+	color: red;
+	text-decoration-line: underline;
+}
+
+a {
+	margin: 50px;
+	color:rgb(31, 31, 89);
+	
+}
+
+li {
+	margin: 20px;
+	padding: 5px;
+	background-color: rgb(234, 240, 240);
+}
+
+h4 {
+	margin: 20px 100px;
+	background-color: antiquewhite;
+	color: blue;
+}
+
+header {
+	text-align: right;
+	margin: 50px;
+}
+	
+

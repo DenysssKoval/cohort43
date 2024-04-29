@@ -1,4 +1,9 @@
 
+h1 {
+	align-items: center;
+	color: #555;
+	
+}
 .red-box {
     background-color: red;
     width: 250px;
